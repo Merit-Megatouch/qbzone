@@ -2,21 +2,3 @@
 # megatouch-host loads the game with RTLD_NOW, so each of these must be defined
 # (usually in src/host/loader_services.cpp) before the game will start.
 # symbol | needed by
-RankFunc | qbzone.so
-ScreenIsTouched() | qbzone.so
-MeritthonDisplayRound(int, int, int, unsigned long) | qbzone.so
-QueFlush(bool) | qbzone.so
-WorldClass::ShowAll() | qbzone.so
-WorldClass::WorldClass() | qbzone.so
-Bitmap::CopyFromVB(int, int, int) | qbzone.so
-Bitmap::CreateSmackTextBox(char const*, FontBase*, signed char, unsigned short, unsigned short, bool) | qbzone.so
-Bitmap::CreateColoredTextBoxTTF(char const*, int, int, int, int, int, int, int, int, int, bool, char*, int) | qbzone.so
-Bitmap::CreateColoredTextBoxTTFS(char const*, int, int, int, int, int, int, int, int, int, bool, char*, int) | qbzone.so
-Bitmap::CData(int) | qbzone.so
-Bitmap::Clear() | qbzone.so
-Bitmap::LoadTGA(char*, int) | qbzone.so
-Bitmap::Compress(bool, int, unsigned short*) | qbzone.so
-Bitmap::DisplayZ(int, int, int, unsigned char) | qbzone.so
-Bitmap::setCData(unsigned short*) | qbzone.so
-Bitmap::freeCData() | qbzone.so
-vtable for DOSLinuxWorld | qbzone.so
